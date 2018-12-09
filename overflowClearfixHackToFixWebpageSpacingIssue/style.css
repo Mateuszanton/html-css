@@ -1,0 +1,24 @@
+.wrapper {
+    background-color: antiquewhite;
+    border: 2px solid salmon;
+    overflow: hidden;
+}
+
+.main {
+    background-color: darkkhaki;
+    border: 2px solid greenyellow;
+    width: 65%;
+}
+
+.sidebar {
+    float: left;
+    background-color: bisque;
+    border: 2px solid azure;
+    width: 30%;
+}
+
+.footer {
+    background-color: steelblue;
+    border: 2px solid black;
+    clear: left;
+}

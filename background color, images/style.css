@@ -1,0 +1,10 @@
+.bg{
+	/* bg properties can be written in one line */
+	padding: 10px;
+	background-color: blue;
+	border: 2px solid orange;
+	background-image: url('https://www.w3schools.com/howto/img_forest.jpg');
+	background-size: contain;
+	background-repeat: no-repeat; 
+	background-position: center;
+}

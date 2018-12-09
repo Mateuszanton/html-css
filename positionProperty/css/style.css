@@ -1,0 +1,86 @@
+body {
+    background-color: royalblue;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    background-color: white;
+    align-content: center;
+    margin: 5% 15% 5% 15%;
+    border-style: solid;
+    border-radius: 2%/1%;
+}
+
+aside {
+    width: 25%;
+    background-color: greenyellow;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 5%;
+    float: right;
+}
+
+article {
+    border-bottom: 1px solid gray;
+    padding: 2%;
+}
+
+article:last-child {
+    border-bottom: 1px solid white;
+}
+
+#logo {
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+}
+
+aside h3 {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid white;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+section {
+    width: 70%;
+    float: left;
+}
+
+main {
+    padding: 50px;
+    overflow: hidden;
+}
+
+nav {
+    float: right;
+}
+
+header {
+    padding: 50px;
+    overflow: hidden;
+    position: sticky;
+    top: -10px;
+    left: -10px;
+    background-color: white;
+    border: 2px steelblue solid;
+}
+
+.fixed {
+    position: fixed;
+    border-style: solid;
+    border-color: salmon;
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    right: 15%;
+    float: right;
+}

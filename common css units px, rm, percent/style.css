@@ -1,0 +1,11 @@
+.something{
+	width: 500px;
+	padding: 10px;
+}
+.bg{
+	width: 10em;
+	padding: 10px;
+	background-color: blue;
+	border: 2px solid orange;
+}
+

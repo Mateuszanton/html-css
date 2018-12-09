@@ -1,0 +1,25 @@
+.active{
+	background-color: #8600b3;
+}
+
+/*następny sibling*/
+.active + a{
+	background-color: #0086b3;
+}
+
+
+/*wszystkie siblingi tego ktory ma klase active*/
+.active ~ a{
+	font-size: 24px;
+	background-color: 	#00b300; 
+}
+
+/*wszystkie elementy p w main*/
+main p{
+	color: green;
+}
+
+/*wszystkie elementy p, ktore sa bezposrednimi dziecmimain*/
+main>p{
+	color: purple;
+}

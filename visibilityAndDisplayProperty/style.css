@@ -1,0 +1,22 @@
+.main {
+    background-color: darkkhaki;
+    border: 2px solid greenyellow;
+    width: 65%;
+    height: 100px;
+    overflow: scroll;
+}
+
+.sidebar {
+    float: left;
+    background-color: bisque;
+    border: 2px solid azure;
+    width: 30%;
+    visibility: hidden;
+}
+
+.footer {
+    background-color: steelblue;
+    border: 2px solid black;
+    clear: left;
+    display: none;
+}

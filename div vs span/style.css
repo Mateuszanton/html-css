@@ -1,0 +1,6 @@
+body{
+	display: inline ;
+}
+.border-blue{
+	border: 2px solid blue;
+}

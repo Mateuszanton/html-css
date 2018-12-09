@@ -1,0 +1,18 @@
+/* importing custom fonts */
+@import url('https://fonts.googleapis.com/css?family=Unlock');
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Unlock');
+body{
+	font-family: Unlock, Tahoma, sans-serif;
+}
+h1{
+	font-family: Black And White Picture, "New Times Roman"
+}
+.more-space{
+letter-spacing: .3em;
+}
+.underline{
+	text-decoration: underline red;
+}
+.bold{
+	font-weight: bold;
+}	

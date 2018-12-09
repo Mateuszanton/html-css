@@ -1,0 +1,13 @@
+html{
+	font-size: 30px;
+}
+.something{
+	width: 500px;
+	padding: 10px;
+}
+.bg{
+	width: 10rem;  /*wezmie z roota font size i pomnoży x 10 (html font size)*/
+	padding: 10px;
+	background-color: blue;
+	border: 2px solid orange;
+}

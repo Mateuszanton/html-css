@@ -1,0 +1,14 @@
+a:visited{
+	color: #996633;
+}
+a:hover{
+	background-color: #993399;
+}
+/*przy klikaniu zmieni kolor tla inline*/
+a:active{
+	background-color: #339966;
+}
+/*do reprodukcji przy uzyciu klawisza tab - fokusowanie elementu */
+a:focus{
+	background-color: #336699;
+}

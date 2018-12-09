@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+<!--po submicie formularza nastapi przekierowanie do : https://yourwebsite.com/formsubmission-->
+<form action="https://yourwebsite.com/formsubmission">
+    <label for="username">User name:
+    </label>
+    <!--predefined text i placeholder -->
+    <input name="username" type="text" id="username"
+           placeholder="please enter cycki murzynki"
+           value="cycki murzynki">
+    <br/>
+    <label for="password">Password:
+    </label>
+    <!--wysylanie inputow jako parametrow: -->
+    <input name="passoword" type="password" id="password"
+           placeholder="please enter password"
+           size="23em">
+    <input type="submit" value="Save">
+</form>
+</body>
+</html>

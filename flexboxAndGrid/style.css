@@ -1,0 +1,15 @@
+hi.another-class {
+    color: #803399;
+}
+
+#some-id {
+    color: #339966;
+}
+
+.some-class {
+    color: #b30000 /*!important*/;
+    }
+
+.another-class {
+    color: orange;
+}

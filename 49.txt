@@ -1,0 +1,50 @@
+css - is a style sheet language used for describing the presentation of a document written in a markup language like HTML
+składnia css:
+selectors {  			jakich elementów dotyczyc ma zmiana
+	property: value; 	opis zmian
+}
+
+gdzie css?
+1.
+<element style="property: value;">
+
+2. w elemencie head
+<head>
+<<style>
+selectors { property: value; }
+</style>
+
+jeżeli jest klika styli do tego samego elementu ostatni ma efekt
+
+* selector wszystkich elementów, nie polecany do używania
+
+element_1 + element_2 { }  nadaj styl następnemu elementowi po element_1
+element_1 ~ element_2 { }  nadaj styl wszystkim następnym elementom po element_1
+element_1 element_2 {} nadaj styl wszystkim elementom_2 w elemencie_1 (Spacja)
+element_1>element_2 {} nadaj styl wszystkim elementom_2 ktore sa bezposrednimi childrenami elemencie_1 (>)
+
+pseudo selectors: MDN pseudo css np :focus :hover :visited dostępne są pod :hov w developers tools w stylach elementu
+zakładka computed w dev toolsach  pokazuje css'y w przyjemnijeszy sposob
+user agent stylesheet - default stylesheets which are aplied by the web browser
+wiele klas przypisanych do jednego elementu dodaje się poprzez wpisanie ich w atrybut class i dodanie spacji między nazwami klas
+kiedy czcionka może być niedostępna po przecinku wypisuje się inne czcionki które będa wyswietlone w takiej sytuacji:
+body{
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+lepiej nie używać dużo fontów bo za kazdym razem fonty sa pobierane zeby wyswietlic strone 
+css unit na w3 zobacz: em, rem, px, % i px sa najwaznejsze i najczesciej uzywane - em zależne od wielości czcionki, rem root element font pixels
+
+krótki zapis paddingów /marginesow z kolejnościa: padding: top righ bottom left;
+dobrze sprawdzac popowiedzi szybciej w dev toolsach wybierajac opcje z listy podpowiedzi
+height elementów lepiej nie hardkodować! ustawiac tylko width!
+wyśrodkowywanie elementów margin: 0px auto 0px auto;
+box-sizing: border-box; - wlicza w szerokość elementu bordery
+
+*{
+box-sizing: border-box;
+} - dobra praktyka żeby to stosować!
+
+span - defaultowo display:inline nie moze byc to block raczej text, kontent, input
+div - defaultowo display:block 
+

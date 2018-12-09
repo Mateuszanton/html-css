@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#main-nav ul li {
+    float: left;
+}
+
+#main-nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.where-question {
+    text-align: center;
+    font-family: Helvetica Sans-serif;
+}
+
+h2 {
+    margin: 5px;
+}
+
+#radio-nav {
+    padding: 15px;
+}
+
+main {
+    padding: 10px 0px 40px 0px;
+    text-align: center;
+}
+
+select option {
+    text-align: center;
+}
+
+.confirmation-button {
+    padding-top: 20px;
+}
+
+#top-nav-section {
+    text-align: center;
+}
+
+#top-nav-section hr {
+    width: 20%;
+}
+
+header {
+    background-color: beige;
+}
+
+small {
+    font-size: 8px;
+    margin-left: 25%;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 20px 15% 20px 15%;
+    text-align: center;
+}
+
+.products-section {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 15% 40px 15%;
+}
+
+.products-section li {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+.additional-description {
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image-description {
+    font-size: 12px;
+    padding: 1px;
+    margin: 2px;
+}
+
+.product-title {
+    font-family: "Avenir Next";
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: #803399;
+}
+
+#more-information-list {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 5% 20px 5%;
+}
+
+#more-information-list li {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    padding: 0px 5px 0px 5px;
+}
+
+#more-information-list img{
+    width: 50px;
+}
+
+.more-info-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.image-description_2 {
+    font-size: 11px;
+}
+
+.all-rights-reserved {
+    font-size: 8px;
+    padding: 3%;
+    text-align: left;
+}

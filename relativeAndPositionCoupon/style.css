@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: green;
+}
+
+.coupon {
+    background-color: white;
+    border: 2px dashed crimson;
+    width: 700px;
+    text-align: center;
+    margin: 20px auto;
+    color: greenyellow;
+    padding: 20px;
+    position: relative;
+}
+
+.coupon img {
+    position: absolute;
+    left: -475px;
+    bottom: -255px;
+}
