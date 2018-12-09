@@ -42,6 +42,8 @@ h2 {
 
 #radio-nav {
     padding: 15px;
+    font-size: 12px;
+    font-family: Helvetica;
 }
 
 main {
@@ -71,7 +73,7 @@ header {
 
 small {
     font-size: 8px;
-    margin-left: 25%;
+    margin-left: 10%;
 }
 
 footer {
@@ -146,4 +148,8 @@ footer {
     font-size: 8px;
     padding: 3%;
     text-align: left;
+}
+
+hr {
+    border: 1px solid dimgrey;
 }
